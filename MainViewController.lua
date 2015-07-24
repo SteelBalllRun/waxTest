@@ -9,5 +9,5 @@ function tableView_cellForRowAtIndexPath(self, tableView, indexPath)
 end
 
 function tableView_numberOfRowsInSection(self, tableView, indexPath)
-	 return 5
+	 return self:ORIGtableView_numberOfRowsInSection(tableView, indexPath) - 5
 end
