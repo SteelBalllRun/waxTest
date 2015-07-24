@@ -7,3 +7,7 @@ function tableView_cellForRowAtIndexPath(self, tableView, indexPath)
 	cell:textLabel():setTextColor(UIColor:blueColor())
 	return cell
 end
+
+function tableView_numberOfRowsInSection(self, tableView, indexPath)
+	 return 5
+end
