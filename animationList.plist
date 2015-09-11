@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>icey</key>
+	<string>11_29</string>
+	<key>recovery</key>
+	<string>1_10</string>
+	<key>boom</key>
+	<string>152_169</string>
+	<key>ghost_smoke</key>
+	<string>387_397</string>
+	<key>sand_drop</key>
+	<string>576_587</string>
+</dict>
+</plist>
