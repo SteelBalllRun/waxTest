@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="40" height="20" tilewidth="32" tileheight="32" nextobjectid="24">
+ <tileset firstgid="1" name="Outside_A1" tilewidth="32" tileheight="32" tilecount="192">
+  <image source="Outside_A1.png" trans="ff00ff" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="193" name="Inside_B" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="Inside_B.png" trans="ff00ff" width="512" height="512"/>
+ </tileset>
+ <layer name="sealand" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyLYWBgiMGDK4G4CojroDQ1cA8JGJ/bQLibRPNguI9MffRyH7XwqPtG3TfqvlH3jbpv1H3kYFj9T426nBYYFD7Uqstp5b6BdsOo+0bdN1gxADNEn/o=
+  </data>
+ </layer>
+ <layer name="obj" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBguMcwCmgBMhgH2gX4QcUgd99gAhOxhNVgiV+Q2xoZMd04GOL3MpTGFn6DHQyW+MUFBkP8jgLKwUZG/PQoGAWjYBQMRwAASuIJ6g==
+  </data>
+ </layer>
+ <objectgroup name="born">
+  <object id="16" name="evilT" gid="361" x="32" y="32" width="32" height="32"/>
+  <object id="21" name="bornPoint" x="15" y="242"/>
+  <object id="23" name="line" x="126" y="59">
+   <polyline points="0,0 32,109 -20,223 -84,259"/>
+  </object>
+ </objectgroup>
+</map>
