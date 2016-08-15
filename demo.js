@@ -28,7 +28,7 @@ defineClass('GBLRecommendChannelListModule', {
             var self = __strong(weak_self);
             //TODO:跳转到对应游戏界面
             if (self.gameName().isEqualToString("热门频道")) {
-                GBLUIJumpHandler.sharedInstance().jumpToHotChannelList();
+                GBLUIJumpHandler.sharedInstance().jumpTotalScoreRankPage();
                 return;
             }
             GBLMtaUtil.trackCustomKeyValueEvent_module_props(keyEventID_channel_game_banner_click, KeyModuleID_Find, block('NSMutableDictionary*', function(propsSet) {
