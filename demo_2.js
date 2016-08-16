@@ -46,7 +46,7 @@ defineClass('SYBGZBusinessOperationsViewModel',{
  defineClass('GBLRecommendChannelListModule', {
      createRecommendHeadCellModule: function() {
          var module = GBLTableCellModule.alloc().init();
-         module.setHeight(75);
+         module.setHeight(175);
          module.setSelctionStyle(0);
          module.setViewClass(SYBChannelRecommendHeaderCell.class());
          module.setViewIdentifier("SYBChannelRecommendHeaderCellV2");
